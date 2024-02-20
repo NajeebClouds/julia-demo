@@ -8,7 +8,7 @@ function main()
     end
 
     for i in eachindex(A) 
-        println(A[i]*3)
+        println(A[i]*3+8)
     end
     
 end
