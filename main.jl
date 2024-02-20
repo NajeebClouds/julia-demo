@@ -6,6 +6,11 @@ function main()
     for i in eachindex(A) 
         println(A[i]*3)
     end
+
+    for i in eachindex(A) 
+        println(A[i]*3)
+    end
+    
 end
 
 main()
