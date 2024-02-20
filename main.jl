@@ -1,3 +1,4 @@
+using Plots
 
 
 
@@ -8,9 +9,10 @@ function main()
     end
 
     for i in eachindex(A) 
-        println(A[i]*3+8)
+        println("this is good",A[i]*3+8)
     end
     
 end
+
 
 main()
